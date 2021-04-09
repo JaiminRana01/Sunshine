@@ -101,4 +101,19 @@ public class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.Foreca
             mWeatherTextView = itemView.findViewById(R.id.tv_weather_data);
         }
     }
+
+    // COMPLETED (31) Create a setWeatherData method that saves the weatherData to mWeatherData
+    // COMPLETED (32) After you save mWeatherData, call notifyDataSetChanged
+
+    /**
+     * This method is used to set the weather forecast on a ForecastAdapter if we've already
+     * created one. This is handy when we get new data from the web but don't want to create a
+     * new ForecastAdapter to display it.
+     *
+     * @param weatherData The new weather data to be displayed.
+     */
+    public void setWeatherData(String[] weatherData) {
+        mWeatherData = weatherData;
+        notifyDataSetChanged();
+    }
 }
