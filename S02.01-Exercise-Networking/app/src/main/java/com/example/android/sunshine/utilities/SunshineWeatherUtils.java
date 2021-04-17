@@ -1,3 +1,18 @@
+/*
+ * Copyright (C) 2016 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 package com.example.android.sunshine.utilities;
 
 import android.content.Context;
@@ -19,6 +34,7 @@ public final class SunshineWeatherUtils {
      * This method will convert a temperature from Celsius to Fahrenheit.
      *
      * @param temperatureInCelsius Temperature in degrees Celsius(°C)
+     *
      * @return Temperature in degrees Fahrenheit (°F)
      */
     private static double celsiusToFahrenheit(double temperatureInCelsius) {
@@ -34,6 +50,7 @@ public final class SunshineWeatherUtils {
      *
      * @param context     Android Context to access preferences and resources
      * @param temperature Temperature in degrees Celsius (°C)
+     *
      * @return Formatted temperature String in the following form:
      * "21°C"
      */
@@ -56,6 +73,7 @@ public final class SunshineWeatherUtils {
      * @param context Android Context to access preferences and resources
      * @param high    High temperature for a day in user's preferred units
      * @param low     Low temperature for a day in user's preferred units
+     *
      * @return String in the form: "HIGH°C / LOW°C"
      */
     public static String formatHighLows(Context context, double high, double low) {
@@ -77,6 +95,7 @@ public final class SunshineWeatherUtils {
      * @param windSpeed Wind speed in kilometers / hour
      * @param degrees   Degrees as measured on a compass, NOT temperature degrees!
      *                  See https://www.mathsisfun.com/geometry/degrees.html
+     *
      * @return Wind String in the following form: "2 km/h SW"
      */
     public static String getFormattedWind(Context context, float windSpeed, float degrees) {
@@ -120,6 +139,7 @@ public final class SunshineWeatherUtils {
      * @param context   Android context
      * @param weatherId from OpenWeatherMap API response
      *                  http://bugs.openweathermap.org/projects/api/wiki/Weather_Condition_Codes
+     *
      * @return String for the weather condition, null if no relation is found.
      */
     public static String getStringForWeatherCondition(Context context, int weatherId) {
@@ -296,6 +316,7 @@ public final class SunshineWeatherUtils {
      * by the OpenWeatherMap call.
      *
      * @param weatherId from OpenWeatherMap API response
+     *
      * @return resource id for the corresponding icon. -1 if no relation is found.
      */
     public static int getIconResourceForWeatherCondition(int weatherId) {
@@ -334,6 +355,7 @@ public final class SunshineWeatherUtils {
      * by the OpenWeatherMap call.
      *
      * @param weatherId from OpenWeatherMap API response
+     *
      * @return resource id for the corresponding icon. -1 if no relation is found.
      */
     public static int getArtResourceForWeatherCondition(int weatherId) {
