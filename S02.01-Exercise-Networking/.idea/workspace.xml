@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c3b3d12d-1ba5-4f19-b22d-b5180f45e17e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/data/SunshinePreferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/data/SunshinePreferences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/utilities/NetworkUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/utilities/NetworkUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/utilities/OpenWeatherJsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/utilities/OpenWeatherJsonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/utilities/SunshineDateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/utilities/SunshineDateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/utilities/SunshineWeatherUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/utilities/SunshineWeatherUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_forecast.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_forecast.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/CHANGELOG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/androidTest/java/com/example/android/sunshine/SimpleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/java/com/example/android/sunshine/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/java/com/example/android/sunshine/data/SunshinePreferences.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/java/com/example/android/sunshine/utilities/NetworkUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/java/com/example/android/sunshine/utilities/OpenWeatherJsonUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/java/com/example/android/sunshine/utilities/SunshineDateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/java/com/example/android/sunshine/utilities/SunshineWeatherUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-hdpi/ic_clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-hdpi/ic_cloudy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-hdpi/ic_fog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-hdpi/ic_light_clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-hdpi/ic_light_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-hdpi/ic_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-hdpi/ic_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-hdpi/ic_snow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-hdpi/ic_storm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-mdpi/ic_clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-mdpi/ic_cloudy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-mdpi/ic_fog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-mdpi/ic_light_clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-mdpi/ic_light_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-mdpi/ic_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-mdpi/ic_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-mdpi/ic_snow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-mdpi/ic_storm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-xhdpi/ic_clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-xhdpi/ic_cloudy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-xhdpi/ic_fog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-xhdpi/ic_light_clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-xhdpi/ic_light_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-xhdpi/ic_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-xhdpi/ic_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-xhdpi/ic_snow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-xhdpi/ic_storm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-xxhdpi/ic_clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-xxhdpi/ic_cloudy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-xxhdpi/ic_fog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-xxhdpi/ic_light_clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-xxhdpi/ic_light_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-xxhdpi/ic_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-xxhdpi/ic_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-xxhdpi/ic_snow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable-xxhdpi/ic_storm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable/art_clear.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable/art_clouds.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable/art_fog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable/art_light_clouds.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable/art_light_rain.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable/art_rain.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable/art_snow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/drawable/art_storm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/layout/activity_forecast.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/menu/forecast.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.02-Exercise-Menus/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/CHANGELOG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/androidTest/java/com/example/android/sunshine/SimpleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/java/com/example/android/sunshine/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/java/com/example/android/sunshine/data/SunshinePreferences.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/java/com/example/android/sunshine/utilities/NetworkUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/java/com/example/android/sunshine/utilities/OpenWeatherJsonUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/java/com/example/android/sunshine/utilities/SunshineDateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/java/com/example/android/sunshine/utilities/SunshineWeatherUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-hdpi/ic_clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-hdpi/ic_cloudy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-hdpi/ic_fog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-hdpi/ic_light_clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-hdpi/ic_light_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-hdpi/ic_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-hdpi/ic_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-hdpi/ic_snow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-hdpi/ic_storm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-mdpi/ic_clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-mdpi/ic_cloudy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-mdpi/ic_fog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-mdpi/ic_light_clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-mdpi/ic_light_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-mdpi/ic_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-mdpi/ic_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-mdpi/ic_snow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-mdpi/ic_storm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-xhdpi/ic_clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-xhdpi/ic_cloudy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-xhdpi/ic_fog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-xhdpi/ic_light_clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-xhdpi/ic_light_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-xhdpi/ic_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-xhdpi/ic_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-xhdpi/ic_snow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-xhdpi/ic_storm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-xxhdpi/ic_clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-xxhdpi/ic_cloudy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-xxhdpi/ic_fog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-xxhdpi/ic_light_clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-xxhdpi/ic_light_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-xxhdpi/ic_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-xxhdpi/ic_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-xxhdpi/ic_snow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable-xxhdpi/ic_storm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable/art_clear.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable/art_clouds.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable/art_fog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable/art_light_clouds.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable/art_light_rain.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable/art_rain.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable/art_snow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/drawable/art_storm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/layout/activity_forecast.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/menu/forecast.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S02.03-Exercise-Polish/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/CHANGELOG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/androidTest/java/com/example/android/sunshine/SimpleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/java/com/example/android/sunshine/ForecastAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/java/com/example/android/sunshine/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/java/com/example/android/sunshine/data/SunshinePreferences.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/java/com/example/android/sunshine/utilities/NetworkUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/java/com/example/android/sunshine/utilities/OpenWeatherJsonUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/java/com/example/android/sunshine/utilities/SunshineDateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/java/com/example/android/sunshine/utilities/SunshineWeatherUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-hdpi/ic_clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-hdpi/ic_cloudy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-hdpi/ic_fog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-hdpi/ic_light_clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-hdpi/ic_light_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-hdpi/ic_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-hdpi/ic_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-hdpi/ic_snow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-hdpi/ic_storm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-mdpi/ic_clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-mdpi/ic_cloudy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-mdpi/ic_fog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-mdpi/ic_light_clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-mdpi/ic_light_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-mdpi/ic_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-mdpi/ic_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-mdpi/ic_snow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-mdpi/ic_storm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-xhdpi/ic_clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-xhdpi/ic_cloudy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-xhdpi/ic_fog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-xhdpi/ic_light_clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-xhdpi/ic_light_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-xhdpi/ic_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-xhdpi/ic_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-xhdpi/ic_snow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-xhdpi/ic_storm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-xxhdpi/ic_clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-xxhdpi/ic_cloudy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-xxhdpi/ic_fog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-xxhdpi/ic_light_clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-xxhdpi/ic_light_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-xxhdpi/ic_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-xxhdpi/ic_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-xxhdpi/ic_snow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable-xxhdpi/ic_storm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable/art_clear.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable/art_clouds.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable/art_fog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable/art_light_clouds.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable/art_light_rain.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable/art_rain.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable/art_snow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/drawable/art_storm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/layout/activity_forecast.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/layout/forecast_list_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/menu/forecast.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.01-Exercise-RecyclerView/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/CHANGELOG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/androidTest/java/com/example/android/sunshine/SimpleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/java/com/example/android/sunshine/ForecastAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/java/com/example/android/sunshine/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/java/com/example/android/sunshine/data/SunshinePreferences.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/java/com/example/android/sunshine/utilities/NetworkUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/java/com/example/android/sunshine/utilities/OpenWeatherJsonUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/java/com/example/android/sunshine/utilities/SunshineDateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/java/com/example/android/sunshine/utilities/SunshineWeatherUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-hdpi/ic_clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-hdpi/ic_cloudy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-hdpi/ic_fog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-hdpi/ic_light_clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-hdpi/ic_light_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-hdpi/ic_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-hdpi/ic_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-hdpi/ic_snow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-hdpi/ic_storm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-mdpi/ic_clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-mdpi/ic_cloudy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-mdpi/ic_fog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-mdpi/ic_light_clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-mdpi/ic_light_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-mdpi/ic_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-mdpi/ic_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-mdpi/ic_snow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-mdpi/ic_storm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-xhdpi/ic_clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-xhdpi/ic_cloudy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-xhdpi/ic_fog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-xhdpi/ic_light_clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-xhdpi/ic_light_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-xhdpi/ic_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-xhdpi/ic_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-xhdpi/ic_snow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-xhdpi/ic_storm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-xxhdpi/ic_clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-xxhdpi/ic_cloudy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-xxhdpi/ic_fog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-xxhdpi/ic_light_clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-xxhdpi/ic_light_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-xxhdpi/ic_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-xxhdpi/ic_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-xxhdpi/ic_snow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable-xxhdpi/ic_storm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable/art_clear.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable/art_clouds.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable/art_fog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable/art_light_clouds.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable/art_light_rain.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable/art_rain.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable/art_snow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/drawable/art_storm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/layout/activity_forecast.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/layout/forecast_list_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/menu/forecast.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S03.02-Exercise-RecyclerViewClickHandling/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/CHANGELOG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/androidTest/java/com/example/android/sunshine/SimpleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/java/com/example/android/sunshine/DetailActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/java/com/example/android/sunshine/ForecastAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/java/com/example/android/sunshine/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/java/com/example/android/sunshine/data/SunshinePreferences.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/java/com/example/android/sunshine/utilities/NetworkUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/java/com/example/android/sunshine/utilities/OpenWeatherJsonUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/java/com/example/android/sunshine/utilities/SunshineDateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/java/com/example/android/sunshine/utilities/SunshineWeatherUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-hdpi/ic_clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-hdpi/ic_cloudy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-hdpi/ic_fog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-hdpi/ic_light_clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-hdpi/ic_light_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-hdpi/ic_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-hdpi/ic_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-hdpi/ic_snow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-hdpi/ic_storm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-mdpi/ic_clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-mdpi/ic_cloudy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-mdpi/ic_fog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-mdpi/ic_light_clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-mdpi/ic_light_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-mdpi/ic_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-mdpi/ic_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-mdpi/ic_snow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-mdpi/ic_storm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-xhdpi/ic_clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-xhdpi/ic_cloudy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-xhdpi/ic_fog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-xhdpi/ic_light_clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-xhdpi/ic_light_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-xhdpi/ic_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-xhdpi/ic_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-xhdpi/ic_snow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-xhdpi/ic_storm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-xxhdpi/ic_clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-xxhdpi/ic_cloudy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-xxhdpi/ic_fog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-xxhdpi/ic_light_clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-xxhdpi/ic_light_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-xxhdpi/ic_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-xxhdpi/ic_rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-xxhdpi/ic_snow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable-xxhdpi/ic_storm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable/art_clear.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable/art_clouds.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable/art_fog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable/art_light_clouds.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable/art_light_rain.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable/art_rain.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable/art_snow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/drawable/art_storm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/layout/activity_detail.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/layout/activity_forecast.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/layout/forecast_list_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/menu/forecast.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S04.01-Exercise-LaunchNewActivity/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1rDxZ5SUmPU0PlZYpDg3JU0w0XO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="S02.01-Exercise-Networking.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3b3d12d-1ba5-4f19-b22d-b5180f45e17e" name="Default Changelist" comment="" />
+      <created>1618524513765</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618524513765</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1618687188687">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1618687188687" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1618525027336">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1618525027336" />
+  </component>
+</project>
